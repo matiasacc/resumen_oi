@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746541361.36973 "c:/Users/matia/OneDrive/Desktop/Organización Industrial/resumen/main.tex" "main.pdf" "main" 1746541365.94912 0
+["pdflatex"] 1746544155.62702 "c:/Users/matia/OneDrive/Desktop/Organización Industrial/resumen/main.tex" "main.pdf" "main" 1746544159.65123 0
   "1.png" 1746550746 40458 39615d3366824e7143016ead05ae950e ""
   "2.png" 1746550746 46324 13e12715f771a83f254899961e04cad9 ""
   "3.png" 1746550746 45634 709ef4f8f17073fccaf2496ada4b0ae2 ""
@@ -167,7 +167,7 @@
   "actividades multiples.png" 1746550744 43560 f28ae7949c29c9f7bf16ad059b0639f2 ""
   "anillo.png" 1746550744 63008 006e87ca3aebc1d5c127fbf31aa84770 ""
   "bimanual.png" 1746550744 282858 2daf38d0d6b3f9fc612c99b3f452411d ""
-  "c:/Users/matia/OneDrive/Desktop/Organización Industrial/resumen/main.tex" 1746541356 239373 9fbb2ad3cef0c10189232ae94b96ea8c ""
+  "c:/Users/matia/OneDrive/Desktop/Organización Industrial/resumen/main.tex" 1746544154 239373 9fbb2ad3cef0c10189232ae94b96ea8c ""
   "ciclo_deming.png" 1746550744 167339 99c46f85e134558200aa41ae67c5893b ""
   "convergenica.png" 1746550746 258568 5efe1dc65b0f78fa9f5a0cf0135bc378 ""
   "cuadro alcance.png" 1746550744 87558 252d74cec4f715937edee5a3ea577aa3 ""
@@ -192,10 +192,10 @@
   "image.png" 1746550746 18248 815f706906f5961c9aeea5d6ab851392 ""
   "jerarquia.png" 1746550746 274172 1d272e1cd03026e3c09f0f1898f5ae06 ""
   "logo (2) (1) (2).jpg" 1746550742 69497 d23b5fccf7fdd2073b2d2b28ea2e2c71 ""
-  "main.aux" 1746541365 18101 23cdbe1417cb63023daa7f95ca47a4b4 "pdflatex"
-  "main.out" 1746541365 19910 5ae1b5c83ccde7674a567eef70d6d0d0 "pdflatex"
-  "main.tex" 1746541356 239373 9fbb2ad3cef0c10189232ae94b96ea8c ""
-  "main.toc" 1746541365 8999 4f2104bb3cf45dd42e3354ae5a90ecdc "pdflatex"
+  "main.aux" 1746544159 18101 23cdbe1417cb63023daa7f95ca47a4b4 "pdflatex"
+  "main.out" 1746544159 19910 5ae1b5c83ccde7674a567eef70d6d0d0 "pdflatex"
+  "main.tex" 1746544154 239373 9fbb2ad3cef0c10189232ae94b96ea8c ""
+  "main.toc" 1746544159 8999 4f2104bb3cf45dd42e3354ae5a90ecdc "pdflatex"
   "mantenimiento.png" 1746550746 71820 0d0900fccbd8c12a78e6d3066587adfc ""
   "movimientos.png" 1746550746 188376 1e32ede03170b766de5d3286db056d2f ""
   "mrp ejemplo.png" 1746550746 49675 bd326bdb24678da6f96f53088615b3ba ""
