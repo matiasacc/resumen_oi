@@ -87,4 +87,14 @@
 \contentsline {subsubsection}{\numberline {9.3.1}Comparación de Filosofías de Gestión: Prioridades Estratégicas}{100}{subsubsection.9.3.1}%
 \contentsline {subsubsection}{\numberline {9.3.2}Análisis del Sistema desde la Teoría de las Restricciones (TOC)}{101}{subsubsection.9.3.2}%
 \contentsline {subsection}{\numberline {9.4}Principios Fundamentales de TOC: Las 9 Reglas y la Solución DBR}{102}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Bibliografía}{105}{section.10}%
+\contentsline {section}{\numberline {10}Capítulo 10: Costos industriales}{105}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Sistemas de costos}{105}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Composición del Costo Total}{105}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Costos directos e indirectos}{107}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Centro de costo}{108}{subsection.10.4}%
+\contentsline {subsubsection}{\numberline {10.4.1}Asignación de Costos Indirectos — Paso a paso técnico}{109}{subsubsection.10.4.1}%
+\contentsline {subsubsection}{\numberline {10.4.2}Base común de actividades representativas}{109}{subsubsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.5}Punto de equilibrio}{112}{subsection.10.5}%
+\contentsline {subsubsection}{\numberline {10.5.1}Conceptos relacionados}{112}{subsubsection.10.5.1}%
+\contentsline {subsubsection}{\numberline {10.5.2}Diagrama de KNOEPEL}{113}{subsubsection.10.5.2}%
+\contentsline {section}{\numberline {11}Bibliografía}{117}{section.11}%
