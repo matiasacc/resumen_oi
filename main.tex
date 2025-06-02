@@ -3667,6 +3667,181 @@ A partir de lo anterior, la empresa puede tomar decisiones respecto al precio y 
 
 El Punto de Equilibrio no es un dato estático, sino una herramienta viva que se debe recalcular con frecuencia. Su análisis impulsa una gestión más eficiente, estratégica y basada en datos, permitiendo anticipar problemas, maximizar oportunidades y garantizar la sustentabilidad financiera del negocio.
 
+\clearpage
+\section{Capítulo 11: Gestión de inventarios}
+
+\textbf{Inventario} es el conjunto de bienes (tangibles) que una empresa posee y que están destinados a ser utilizados en su operación (proceso productivo, venta). Dependiendo del tipo de organización, esto puede incluir:
+
+\begin{itemize}
+    \item Materias primas: insumos que aún no han sido transformados.
+    \item Productos en proceso: bienes que están siendo manufacturados.
+    \item Productos terminados: artículos listos para ser vendidos o distribuidos.
+    \item Suministros: materiales auxiliares necesarios para operar (herramientas, repuestos, etc.).
+\end{itemize}
+
+El inventario representa una parte del capital de trabajo de la empresa y cumple un rol estratégico: garantizar que siempre haya disponibilidad de lo necesario para producir, vender o brindar servicios.
+
+Tener inventario es como tener una reserva: puede salvarte de interrupciones, pero también genera costos si no se gestiona bien. Por eso entra en juego la gestión de inventarios, que busca administrarlo con inteligencia.
+
+\textbf{Gestión de inventarios} es el conjunto de actividades, procesos y estrategias destinadas a planificar, controlar y supervisar el flujo de materiales, productos y suministros dentro de una organización. Su objetivo principal es asegurar la disponibilidad de los insumos necesarios en el momento y lugar adecuados, minimizando al mismo tiempo los costos asociados al almacenamiento, manejo y obsolescencia.
+
+
+\subsection{Objetivos de los inventarios}
+Existen cuatro razones fundamentales por las que las empresas lleven un inventario:
+
+\begin{enumerate}
+    \item \textbf{Protección contra las incertidumbres:} En los sistemas de inventarios, existen incertidumbres en la oferta, en la demanda y en los tiempos de espera. El inventario de seguridad es aquel que se mantiene para protegerse contra esas incertidumbres. De manera similar, se mantienen inventarios de seguridad de materias primas para absorber las incertidumbres en las entregas por parte de los proveedores en términos tanto de cantidad como de la oportunidad de la entrega. Se mantienen inventarios de seguridad de producción en proceso para permitir irregularidades inesperadas, trabajadores poco confiables y modificaciones en el programa. La mayoría de los inventarios de seguridad pueden reducirse mejorando la coordinación con los proveedores y los clientes en la cadena de suministro
+    \item \textbf{Permitir una producción y compras económicas:} Una razón clave para mantener inventarios es que producir o comprar en lotes grandes suele ser más económico. Esto permite reducir costos de preparación, aprovechar descuentos por cantidad y optimizar el uso de equipos. Este tipo de inventario se llama "inventario de ciclo". Sin embargo, con métodos como la manufactura esbelta, las empresas buscan reducir los tiempos y costos de preparación, lo que permite trabajar con lotes más pequeños y menos inventario, acercándose al ideal de producir una unidad por vez sin desperdicio.
+    \item \textbf{Cubrir los cambios anticipados en la demanda o en la oferta:} por ejemplo: un productor de acondicionadores de aire puede usar una estrategia uniforme de producción aun cuando la mayoría de dichos acondicionadores se vendan durante el verano.
+    \item \textbf{Prever el tránsito:} . Los inventarios que se desplazan de un punto a otro en la cadena de suministro se conocen como inventarios en trámite o inventarios en tránsito. Dichos inventarios son afectados por las decisiones de ubicación de la producción y por la elección del transportista y pueden tener un tamaño significativo cuando se emplean barcos en lugar de aviones para transportar los bienes.
+\end{enumerate}
+
+\subsection{Problemas que enfrentan las empresas al mantener inventarios altos:}
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsection{Componentes de costos}
+\begin{itemize}
+    \item Costos de Compra o Adquisición: Costo de una compra al proveedor o de una corrida de producción
+    \item Costo de Almacenamiento Costo asociado con la posesión o manejo del inventario a través del tiempo. Los costos que podemos encontrar son los siguientes: Seguros, roturas, almacén, costo capital inmovilizado.
+    \item Costo de Preparar Pedido Costo de Preparar una máquina o proceso para la fabricación de un pedido. También se pueden considerar los costos administrativos de emisión de pedidos.
+    \item Costo de Ruptura o agotamiento Costo que se produce cuando la demanda supera la cantidad de mercadería en inventario.
+\end{itemize}
+
+Una administración eficiente del inventario requiere comprender los distintos costos asociados a su existencia, adquisición y manejo. Estos son los principales componentes:
+
+\begin{enumerate}
+    \item Costo de adquisición: Representa el gasto total por la compra del producto o insumo.
+    \begin{equation}
+        \text{Costo de adquisición} = Q \cdot b
+    \end{equation}
+    Q es la cantidad comprado y b costo unitario del producto.
+
+    \item Costo de pedido (o de lanzamiento de producción): ncluye todos los costos fijos asociados a cada orden de compra o producción, como trámites administrativos, transporte, carga, programación de máquinas, etc.
+    \begin{equation}
+        \text{Costo de pedido} = K \cdot \dfrac{D}{Q}
+    \end{equation}
+    K es el costo fijo por pedido, D es la demanda total anual, Q es el tamaño del pedido.
+    
+    
+    \item Costo de almacenamiento (o de mantenimiento): Refleja el costo de conservar productos en stock, incluyendo espacio, seguros, deterioro, obsolescencia, y costo de oportunidad del capital inmovilizado.
+    \begin{equation}
+        \text{Costo de almacenamiento} = p \cdot b \cdot \dfrac{Q}{2}
+    \end{equation}
+    
+
+    \item Costo de ruptura o agotamiento: Es el costo asociado a no tener inventario disponible cuando se genera una demanda: perdida de ventas, daño en la relación de clientes, paradas de produccion.
+    
+\end{enumerate}
+
+\subsection{Cantidad económica de la orden}
+
+\subsubsection{1er caso}
+El objetivo específico es seleccionar el Q que minimice los CVT (costo variable total anual del inventario)
+
+Se excluye el costo de la compra del producto, que es fijo y costos por faltantes, quedando:
+
+\begin{equation}
+    CVT= \text{costo de ordenar anual} + \text{costo de mantener anual}
+\end{equation}
+
+Las consideraciones son:
+
+\begin{itemize}
+    \item La demanda es conocida y se produce a una tasa de tiempo constante.
+    \item La política de Inventario que se utiliza es la de revisión continua.
+    \item No se permiten rupturas de stock.
+    \item El volumen del pedido es constante.
+    \item Se emite una orden de pedido cuando el inventario llega a cero.
+    \item El pedido se recibe instantáneamente (período adelanto = 0).
+    \item La mercadería se recibe en un solo lote.
+    \item El costo del producto es constante, no importa la cantidad que se pida.
+    \item Los costos almacenamiento y pedido se consideran constantes en el horizonte de tiempo.
+\end{itemize}
+
+Q es la cantidad a ordenar. El objetivo es calcular el $Q^{*}$ optimo.
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=1]{eoq1.png}
+\end{figure}
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=1]{oeq2.png}
+\end{figure}
+
+El cálculo de $Q^{*}$ es:
+
+
+\begin{equation}
+    Q^{*} = \sqrt(\frac{2 \cdot D \cdot K}{H})
+\end{equation}
+
+donde, 
+
+\begin{itemize}
+    \item Q*: Cantidad óptima de pedido
+    \item K: Costo de Pedido 
+    \item D: Demanda
+    \item H: Costo de Almacenamiento = p*b donde bes la tasa de almacenaje del artículo en el año y p el recio unitario del artículo almacenamiento.
+\end{itemize}
+
+A tener en cuenta para los ejercicios:
+\begin{itemize}
+    \item La cantidad optima de pedidos se obtiene con la fórumla $Q^{*}$. (la de la raiz)
+    \item Costo Variable Total de Tenencia de Inventario con CT (ver grafico, es la suma)
+    \item Cantidad de pedidos a realizar (np=demanda D / cantidad optima de pedidos)
+    \item Tiempo entre pedidos (dias de trabajo / np)
+    \item nivel del reorden suponiendo que por mes se trabajan 20 días y que el tiempo de adelanto es de 3 días.  (= demanda diaria D/dias * tiempo de adelanto(dias))
+\end{itemize}
+
+
+\subsubsection{2do caso}
+
+El EOQ es un modelo de inventario que permite determinar el lote óptimo a pedir, también es necesario llevar un registro de inventario continuo (sistema de revisión continua), para detectar con exactitud cuando llega al punto de reorden.
+
+Según el modelo, el nivel de inventario bajará hasta 0 en el mismo instante en que ocurre la entrega. Pero, ¿si el proveedor no es confiable con el tiempo de entrega?, Entonces, se deberá aumentar el punto de resurtido para tener un colchón para las entregas retrasadas
+
+\begin{equation}
+    \text{Inventario de seguridad=Punto de reorden-demanda esperada durante el tiempo de entrega programado.}
+\end{equation}
+
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=.9]{tercero.png}
+\end{figure}
+
+\clearpage
+\subsubsection{3er caso: Comportamiento Modelo Lote Económico de Producción}
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=.9]{3caso.png}
+\end{figure}
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=.9]{4fig.png}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \clearpage
@@ -3675,49 +3850,8 @@ El Punto de Equilibrio no es un dato estático, sino una herramienta viva que se
     \item OIT \href{https://teacherke.wordpress.com/wp-content/uploads/2010/09/introduccion-al-estudio-del-trabajo-oit.pdf}{(pdf) }
     \item Presentaciones de clases
     \item IA
+    \item ADMINISTRACION DE OPERACIONES – Schroeder 
 \end{itemize}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
