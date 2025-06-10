@@ -3347,7 +3347,7 @@ NO sale de la caja pero se imputa para la baja de impuestos a la ganancia.
 El COSTO TOTAL es la suma de los COSTOS FIJOS mas los COSTOS VARIABLES.
 
 \begin{equation}
-    CV = CF + CV
+    CT = CF + CV
 \end{equation}
 
 donde, 
@@ -3738,7 +3738,7 @@ Una administración eficiente del inventario requiere comprender los distintos c
 
 \subsection{Cantidad económica de la orden}
 
-\subsubsection{1er caso}
+\subsubsection{1er caso: Comportamiento Modelo Cantidad Económica de Pedido }
 El objetivo específico es seleccionar el Q que minimice los CVT (costo variable total anual del inventario)
 
 Se excluye el costo de la compra del producto, que es fijo y costos por faltantes, quedando:
@@ -3799,7 +3799,7 @@ A tener en cuenta para los ejercicios:
 \end{itemize}
 
 
-\subsubsection{2do caso}
+%\subsubsection{2do caso}
 
 El EOQ es un modelo de inventario que permite determinar el lote óptimo a pedir, también es necesario llevar un registro de inventario continuo (sistema de revisión continua), para detectar con exactitud cuando llega al punto de reorden.
 
@@ -3827,6 +3827,79 @@ Según el modelo, el nivel de inventario bajará hasta 0 en el mismo instante en
     \centering
     \includegraphics[scale=.9]{4fig.png}
 \end{figure}
+
+
+\begin{enumerate}
+    \item Fase de utilización y fabricación:
+    \begin{itemize}
+        \item Durante este tiempo, la producción (p) y el consumo (d) se dan simultáneamente.
+        \item Por eso la pendiente es menos empinada: el stock sube a un ritmo de p-d 
+        \item Termina en el punto más alto del triángulo, que es Q*
+    \end{itemize}
+    \item Fase de solo utilización:
+    \begin{itemize}
+        \item Luego de finalizar la producción, solo se consume el stock a la tasa de demanda d.
+        \item El inventario cae linealmente hasta llegar al punto de reorden (r).
+    \end{itemize}
+\end{enumerate}
+Q (altura máxima del triángulo): esta es la cantidad óptima a producir por ciclo, es decir, el lote económico de producción Q*.
+
+\clearpage
+\subsubsection{4to caso: Modelo Cantidad Económica de Pedido con Descuento por Cantidad }
+
+A medida que la cantidad comprada supera ciertos umbrales el precio unitario va disminuyendo
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=.7]{loteecono.png}
+\end{figure}
+
+\begin{figure} [ht!]
+    \centering
+    \includegraphics[scale=.7]{ct_curva.png}
+\end{figure}
+
+La fórmula: 
+
+\begin{equation}
+    CT(i) = D \cdot p(i) + \frac{DK}{Q^{*}} + \frac{Q^{*} \cdot H(i)}{2}
+\end{equation}
+
+donden p(i): Precio unitario producto
+
+
+
+
+
+\subsection{Control selectivo de los stocks}
+
+
+\subsubsection{Método ABC}
+
+El método ABC es una técnica de clasificación de inventarios basada en el principio de Pareto (80/20). Su objetivo es identificar y priorizar los artículos más importantes del inventario para aplicar una gestión diferenciada según su valor y consumo. 
+
+\begin{itemize}
+    \item A: Pocas unidades → Alto valor económico → Control estricto
+    \item B: Intermedios → Seguimiento regular
+    \item C: Muchas unidades → Bajo impacto económico → Control simplificado
+\end{itemize}
+
+Las ventajas del método son: 
+
+\begin{itemize}
+    \item Optimiza el uso de recursos limitados (personal, dinero, tiempo).
+    \item Facilita decisiones de compra, almacenamiento y control.
+    \item Permite aplicar diferentes estrategias de gestión según la clase.
+\end{itemize}
+
+No todos los artículos requieren el mismo esfuerzo de gestión. El método ABC permite enfocar los recursos en lo que realmente importa.
+
+
+
+
+
+
+
 
 
 

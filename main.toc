@@ -102,7 +102,9 @@
 \contentsline {subsection}{\numberline {11.2}Problemas que enfrentan las empresas al mantener inventarios altos:}{118}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}Componentes de costos}{118}{subsection.11.3}%
 \contentsline {subsection}{\numberline {11.4}Cantidad económica de la orden}{119}{subsection.11.4}%
-\contentsline {subsubsection}{\numberline {11.4.1}1er caso}{119}{subsubsection.11.4.1}%
-\contentsline {subsubsection}{\numberline {11.4.2}2do caso}{120}{subsubsection.11.4.2}%
-\contentsline {subsubsection}{\numberline {11.4.3}3er caso: Comportamiento Modelo Lote Económico de Producción}{122}{subsubsection.11.4.3}%
-\contentsline {section}{\numberline {12}Bibliografía}{123}{section.12}%
+\contentsline {subsubsection}{\numberline {11.4.1}1er caso: Comportamiento Modelo Cantidad Económica de Pedido }{119}{subsubsection.11.4.1}%
+\contentsline {subsubsection}{\numberline {11.4.2}3er caso: Comportamiento Modelo Lote Económico de Producción}{122}{subsubsection.11.4.2}%
+\contentsline {subsubsection}{\numberline {11.4.3}4to caso: Modelo Cantidad Económica de Pedido con Descuento por Cantidad }{123}{subsubsection.11.4.3}%
+\contentsline {subsection}{\numberline {11.5}Control selectivo de los stocks}{123}{subsection.11.5}%
+\contentsline {subsubsection}{\numberline {11.5.1}Método ABC}{123}{subsubsection.11.5.1}%
+\contentsline {section}{\numberline {12}Bibliografía}{125}{section.12}%
